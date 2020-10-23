@@ -1,0 +1,78 @@
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+hr {
+  max-width: 200px;
+  border-width: 3px;
+  border-color: #f05f44;
+}
+
+.faded {
+  color: rgba(255, 255, 255, 5);
+}
+
+header.startup {
+  background-position: center;
+  background-image: url("cess1.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+header.startup hr {
+  margin-top: 200px;
+  margin-bottom: 30px;
+}
+
+header.startup h1 {
+  font-size: 5rem;
+}
+
+.btn {
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 300px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-xl {
+  padding: 1rem 2rem;
+}
+
+.btn-primary {
+  background-color: #f05f44;
+  border-color: #f05f44;
+}
+
+.btn-primary:hover {
+  background-color: #ee4b08;
+  border-color: #ee4b08;
+  border-width: 5px;
+  cursor: pointer;
+}
+.container2 {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+img {
+  width: 450px;
+  height: 300px;
+  margin: 10px;
+  transition: all 1s;
+}
+
+img:hover {
+  transform: scale(1.1);
+}
+
+h2 {
+  padding: 15px 0 15px 0;
+  text-align: center;
+}
