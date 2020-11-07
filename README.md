@@ -1,2 +1,2 @@
-# AIgorithmz.github.io
+# Beautiful Cities
  Just a simple landing page 😉💻
